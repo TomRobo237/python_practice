@@ -7,3 +7,6 @@ myname = input() # Gathering input and placing into myname
 print('Nice to meet you, ' + myname)
 print('The length of your name is: ', end='')
 print(len(myname)) #This will include whitespace into the number
+print('And your age?')
+myage= input()
+print("You've lived at least " + str(int(myage) * 365) + " Days")
