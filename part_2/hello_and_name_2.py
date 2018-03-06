@@ -23,10 +23,8 @@ while not myage:
         myage=int(myage)
         continue
     except ValueError:
-        print('Not a number!')
+        print('Please enter your age as a whole number!')
         myage=''
-    else:
-        print('Please enter your age!')
 
 if myage <= 10:
     print('Wow, you are young!')
