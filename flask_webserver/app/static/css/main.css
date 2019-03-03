@@ -1,0 +1,33 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: linear-gradient(to bottom, mintcream, mistyrose);
+}
+
+h1 {
+	text-shadow: 2px 2px 5px grey;
+}
+
+a.button {
+	width: 25%;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	border-radius: 4px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color: lightblue;
+	color: black;
+	transition: all 0.5s;
+}
+
+a.button:hover {
+	background-color: lightcoral;
+	color: white;
+}
